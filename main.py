@@ -4,6 +4,7 @@ import camera
 import keylogger
 import time
 
+# IMAGES HAVE BEEN REDACTED FROM THIS REPOSITORY TO PROTECT PRIVACY
 zach_image = face_recognition.load_image_file("zach.png")
 dad_image = face_recognition.load_image_file("dad.png")
 zach_encoding = face_recognition.face_encodings(zach_image)[0]
